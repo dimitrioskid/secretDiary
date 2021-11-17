@@ -1,0 +1,76 @@
+body {
+    background-image: url("../img/background.jpg"); 
+    height: 100%; 
+    background-position: center; 
+    background-repeat: repeat; 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    
+}
+.gitcode{
+    margin: 50px 0 10px 50px;
+}
+.gitcode i{
+    font-size: 150%;
+}
+.gitcode a{
+    font-weight: bold;
+}
+.clear {
+    clear: both;
+}
+.container {
+    text-align: center;
+    margin-top: 20px;
+    width: 480px;
+    background: rgba(163, 163, 163, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+}
+.container input {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.container input:focus{
+    background-color:#E8F8F5;
+}
+.container h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 250%;
+    padding: 5px;
+}
+#logInForm{
+    display: none;
+}
+.toggleForms {
+    
+    cursor: pointer;
+}
+.container-fluid {
+    width: 80%;
+    margin-top: 50px;
+    text-align: center;
+}
+#logout{
+    color: white;
+    text-decoration: none;
+}
+.navbar-brand {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 160%;
+    cursor: default;
+}
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {  
+    .container {
+        width: 400px;
+    }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {  
+    .container {
+        width: 350px;
+    }
+}
